@@ -1,0 +1,248 @@
+/* Base Styles */
+
+:root {
+    font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    min-height: 100vh;
+    background-color: white;
+    color: #262626;
+    padding-bottom: 3rem;
+    cursor: default;
+
+}
+
+img {
+    display: block;
+    width: 70%;
+    height: auto;
+}
+
+.container {
+    font-family: "Open Sans", Arial, sans-serif;
+    min-height: 10pc;
+    background-color: white;
+    color: #262626;
+    padding-bottom: 3rem;
+    max-width: 93.5rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+    border-bottom: 3px solid #bbb;
+}
+
+.btn {
+    display: inline-block;
+    font: inherit;
+    background: none;
+    border: none;
+    color: inherit;
+    padding: 0;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: 0.5rem auto #4d90fe;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* Profile Section */
+
+.profile {
+    padding: 5rem 0;
+}
+
+.profile::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.profile-image {
+    float: left;
+    width: calc(33.333% - 1rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.profile-image img {
+    border-radius: 50%;
+}
+
+.profile-user-settings,
+.profile-stats,
+.profile-bio {
+    float: left;
+    width: calc(66.666% - 2rem);
+}
+
+.profile-user-settings {
+    margin-top: 1.1rem;
+}
+
+.profile-user-name {
+    display: inline-block;
+    font-size: 3.2rem;
+    font-weight: 300;
+}
+
+.profile-edit-btn {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    border: 0.1rem solid #dbdbdb;
+    border-radius: 0.3rem;
+    padding: 0 2.4rem;
+    margin-left: 2rem;
+}
+
+.profile-settings-btn {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.profile-stats {
+    margin-top: 2.3rem;
+}
+
+.profile-stats li {
+    display: inline-block;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-right: 4rem;
+    cursor: pointer;
+}
+
+.profile-stats li:last-of-type {
+    margin-right: 0;
+}
+
+.profile-bio {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 2.3rem;
+}
+
+.profile-real-name,
+.profile-stat-count,
+.profile-edit-btn {
+    font-weight: 600;
+}
+
+
+
+/* List */
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    padding-left: 20%;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 76px;
+    text-decoration: none;
+    font-size: 17px;
+    border-top: 3px solid #e6e6e6 ;
+    display: inline;
+  }
+  
+  .topnav a:hover {
+    /* border-top: 3px solid #262626; */
+    border-top: 3px solid #e6e6e6;
+    
+  }
+  
+  .topnav a.active {
+    border-top: 3px solid #262626;
+  }
+
+/* posts */
+  .containerPosts {
+    padding: 5px 5px;
+    
+  }
+
+  .nameTitlePosts{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 300%;
+    text-align: center;
+    margin-top: 2pc;
+  }
+
+  .imgPosts {
+    border-radius: 5px 5px 0 0;
+    float: left;
+    /* margin-top: 3%; */
+    margin-left: 10%;
+    width: 7%;
+    /* position: absolute; */
+    display: inline;
+  }
+  .cardPosts {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+    /* margin-top: 10%; */
+    text-align: center;
+    /* background-color: blue; */
+    /* display: inline; */
+  }
+  
+  .cardPosts:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .about{
+      font-size: 200%;
+  }
+
+  .listprofile{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 60px;
+    text-decoration: none;
+    font-size: 17px;
+    border-top: 3px solid #e6e6e6 ;
+    display: inline;
+    border-top: 3px solid #e6e6e6;
+    cursor: default;
+
+  }
+
+  .listprofileactive{
+    border-top: 3px solid #262626;
+  }
+
+  .deleteButton{
+      margin-left: 43pc;
+      font-family: 'Times New Roman', Times, serif;
+      color: red;
+      font-size: 1pc;
+      background-color: white;
+      border: solid;
+      border-width: thin;
+      border-color: red;
+  }

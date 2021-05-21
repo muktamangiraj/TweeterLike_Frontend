@@ -1,0 +1,137 @@
+.bodySignup{
+  background-image: url("../image.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+  padding-top: 5%;
+  padding-bottom: 38%;
+  zoom: inherit;
+  }
+
+  .mainDivSignup{
+    position: fixed;
+    margin-left: 10pc;
+    /* zoom:180%; */
+    float: left;
+}
+
+    /* TweetX */
+  .headingSignup{
+    color: #ff0080;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5ch;
+    
+  }
+
+  /* Create Account */
+  .buttonSignupLogin {
+    border: none;
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 300%;
+    background-color: white;
+      color: #555555;
+      border: 2px solid #555555;
+      width: 200%;
+      height: 200%;
+}
+  
+  /* page heading */
+  .signupname{
+    color: #555555;
+    /* margin-left: 5%; */
+    /* background-color: maroon; */
+    text-align: left;
+    /* padding-bottom: 100pc; */
+    font-size: 150%;
+    box-sizing: border-box;
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    margin: 20px;
+  }
+
+  .divform{
+    -ms-layout-grid-line: auto;
+    background-color: blue;
+    width: 200%;
+    height: 200%;
+    padding: 20px 20px;
+  }
+
+  
+.form {
+  width: 500pc;
+  height:200%;
+  margin: auto;
+  /* background-color: blue; */
+}
+
+.inputContainerSignup {
+  /* width: 100%; */
+  margin-bottom: 20px;
+  
+  
+  /* background-color: #e6e6e6; */
+  
+  width: 200%;
+  height: 900%;
+}
+.icon {
+  position: absolute;
+  padding: 10px;
+  /* color: rgb(49, 0, 128); */
+  width: 30px;
+  text-align-last: right;
+  margin-left: 185%;
+  margin-bottom: 190%;
+  color: #999999;
+}
+.Field {
+  width: 100%;
+  height: 200%;
+  padding: 10px;
+  text-align: left;
+  font-size: 130%;
+  font-weight: 500;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* background-color: brown; */
+  border: none;
+  background-color: #f2f2f2;
+}
+
+
+/* Sign up button */
+
+  .buttonSignup {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: normal;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 15%;
+  background-color: white;
+    background-color: #ff8080;
+    color: white;
+    border: 2px solid #ff8080;
+    width: 100%;
+    height: 50%;
+    margin-left: 138%;
+    margin-top: 3pc;
+  }

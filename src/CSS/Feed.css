@@ -1,0 +1,222 @@
+.maindiv{
+    display: inline;
+}
+
+/* Style the header */
+.header {
+    background-color:white;
+    padding: 10px;
+    /* text-align: center; */
+    border-style:inset;
+    border-color: #d9d9d9;
+    border-top: white;
+    display:inline-flexbox;
+    /* margin-top: 10pc; */
+  }
+  
+  /* TweetX */
+  .heading{
+    color: #ff0080;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2pc;
+    margin-right: 100pc;
+  }
+
+
+  /* NAvigation Bar */
+.ulstyle{
+    margin-left: 70pc;
+    cursor: default;
+}
+  .list{
+      display: inline;
+      padding-left: 3pc;
+      font-size: 20px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+      color: #999999;
+  }
+  .active{
+      color : #ff0080;
+  }
+
+
+  /* Body */
+  
+  .column {
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Left and right column */
+  .column.side {
+    width: 25%;
+   
+  }
+  
+  /* Middle column */
+  .column.middle {
+    width: 45%;
+    align-items: center;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    align-items: center;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+      align-items: center;
+    }
+  }
+
+  /* Button Write */
+  .buttonwrite{
+      width: 15%;
+      height: 4pc;
+      padding: 15px 10px;
+      background-color: #ff0080;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      font-size: 25px;
+      font-weight: normal;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      border: none;
+      margin-right: 50%;
+      float: left;
+      /* margin-bottom: 10%; */
+      border-radius: 10px;
+  }
+
+
+
+  /* card */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 5pc;
+    text-align: center;
+    /* background-color: blue; */
+    /* display: inline; */
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .Feedimg {
+    border-radius: 5px 5px 0 0;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 10%;
+    height: 500%;
+    /* position: absolute; */
+    /* background-color: blue; */
+    display: inline;
+  }
+  
+  .container {
+    padding: 10px 5px;
+    margin-top: 10%;
+  }
+
+  .nameTitle{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 400%;
+    text-align: center;
+    margin-top: 4%;
+  }
+  .about{
+    font-size: 6%;
+    /* text-align: left; */
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 15%;
+  }
+  .Feedtime{
+    margin-left: 90%;
+    font-size: 130%;
+  }
+
+  /* Modal */
+  .Modal {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    right: 400px;
+    bottom: 200px;
+    background-color: papayawhip;
+  }
+
+  .Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(-20deg, white 10%, #fdf7f7 100%);
+  }
+
+  .modalClose{
+    margin-left: 54pc;
+    border: none;
+    font-size: 200%;
+    background-color: inherit;
+    color: red;
+    font-weight: bold;
+  }
+  .modalHeading{
+    position: relative;
+    align-content: center;
+    margin-left: 45%;
+    font-size: 150%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .inputName{
+    margin-top: 5%;
+    margin-left: 35%;
+    width: 30%;
+    height: 2pc;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+  }
+
+  .inputAbout{
+    margin-top: 5%;
+    margin-left: 35%;
+    width: 30%;
+    height: 10pc;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+  }
+
+  .addPost{
+    width: 15%;
+      height: 2pc;
+      /* padding: 15px 10px; */
+      background-color: #ff4d4d;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: lighter;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      border: none;
+      margin-top: 5%;
+      margin-left: 60%;
+      float: left;
+      /* margin-bottom: 10%; */
+      border-radius: 10px;
+  }
+   
