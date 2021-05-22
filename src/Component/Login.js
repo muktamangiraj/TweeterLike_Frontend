@@ -5,6 +5,12 @@ import LoginValidation from '../validations/LoginValidation';
 import ForgotPasswordValidation from '../validations/ForgotPasswordValidation';
 import ReactModal from 'react-modal';
 import "../CSS/Feed.css";
+import Helmet from "react-helmet";
+import background from '../image.png'
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {container} from 'react-bootstrap';
+
 
 class  Login extends Component {
 
@@ -127,9 +133,12 @@ class  Login extends Component {
     const { error } = this.state;
     const { ResetPassword } = this.state;
     return (
-      <div class="bodyLogin">
-        <div class="mainDivLogin">
-            <h1 class="headingLogin">TweetX</h1>
+        <container>
+          <div class ="position-relative">
+            <img src ={background} class="img-fluid backgroundimg"></img> 
+            <div class="topofimage">
+              
+              <h1 class="headingLogin">TweetX</h1>
                 <div >
                   <button class="buttonCreateAccountLogin" onClick={this.onCreateClick.bind(this)}>Create Account</button>
                 </div>
@@ -214,9 +223,11 @@ class  Login extends Component {
                     <button class="buttonLogin" onClick={this.onSubmit.bind(this)}>Login</button>
                   </div>
                 </form>
-              </div>
+
             </div>
-        );
+          </div>
+        </container>
+      );
     }
 }
 

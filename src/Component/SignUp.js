@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import "../CSS/SignUp.css"
 import * as actions from '../Action/UserAction';
 import SignUpValidation from "../validations/SignUpValidation";
+import background from '../image.png'
 
 class  SignUp extends Component {
 
@@ -101,8 +102,11 @@ class  SignUp extends Component {
       const { errorP } = this.state;
       const { errors } = this.state;
         return (
-            <div class="bodySignup">
-                <div class="mainDivSignup">
+          <container>
+          <div class ="position-relative">
+            <img src ={background} class="img-fluid backgroundimg"></img> 
+            <div class="topofimage">
+            
                     <h1 class="headingSignup">TweetX</h1>
                     <div >
                         <button class="buttonSignupLogin"onClick={this.onLoginClick.bind(this)}>Login</button>
@@ -194,6 +198,7 @@ class  SignUp extends Component {
                     </form>
                 </div>
             </div>
+            </container>
         );
     }
 }
