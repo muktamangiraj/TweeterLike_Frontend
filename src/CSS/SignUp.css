@@ -42,8 +42,8 @@
     background-color: white;
       color: #555555;
       border: 2px solid #555555;
-      width: 200%;
-      height: 200%;
+      width: 15rem;
+      height: 6rem;
 }
   
   /* page heading */
@@ -130,8 +130,8 @@
     background-color: #ff8080;
     color: white;
     border: 2px solid #ff8080;
-    width: 100%;
-    height: 50%;
+    width: 20rem;
+    height:7rem;
     margin-left: 138%;
     margin-top: 3pc;
   }
