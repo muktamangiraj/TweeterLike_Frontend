@@ -1,28 +1,25 @@
-.bodySignup{
-  background-image: url("../image.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: right;
-  background-attachment: fixed;
-  padding-top: 5%;
-  padding-bottom: 38%;
-  zoom: inherit;
-  }
-
-  .mainDivSignup{
-    position: fixed;
-    margin-left: 10pc;
-    /* zoom:180%; */
-    float: left;
+.backgroundimg{
+  background-size: cover;
+  overflow: hidden;
+  width  :100%;
+  height: auto;
+  padding: 0;
+  display:block;
+  position: relative;
 }
 
-    /* TweetX */
-  .headingSignup{
-    color: #ff0080;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 5ch;
-    
-  }
+.topofimage{
+  position: absolute;
+  top: 10rem;
+  margin-left: 5rem;
+}
+
+.headingLogin{
+  color: #ff0080;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3rem;
+  margin-left: 6rem;
+} 
 
   /* Create Account */
   .buttonSignupLogin {
