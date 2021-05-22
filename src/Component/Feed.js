@@ -89,7 +89,7 @@ class  Feed extends Component {
         const { errors } = this.state;
         return (
             <div class="maindiv">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <div class="header">
                     <h1 class="heading">TweetX</h1>
                     <div>
@@ -155,6 +155,7 @@ class  Feed extends Component {
                     <div class="column side">
                     </div>
                 </div>
+            </meta>
             </div>
         );
     }
