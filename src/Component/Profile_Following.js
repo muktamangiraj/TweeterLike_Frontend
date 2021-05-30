@@ -7,7 +7,7 @@ export default class  Profile_Following extends Component {
         super(props);
         this.state={
             User : [],
-            mainUser : {}
+            mainUser : []
         }
     }
 
@@ -73,10 +73,12 @@ export default class  Profile_Following extends Component {
 
     componentWillMount() {
         var len = this.props.location.state.detail.Following.length;
+        console.log(len);
         for (let i = 0; i < len; i++) {
             const element = this.props.location.state.detail.Following[i];
             console.log(i);
             actions.GetUserByIDAction(element).then(user => {
+                // console.log(user);
                 this.setState({
                     User : this.state.User.concat(user.data)
                 })
@@ -102,7 +104,7 @@ export default class  Profile_Following extends Component {
 
     render() {
         const { User } = this.state;
-        
+        console.log(this.state);
         return (
             <div class="maindiv">
                 <div class="header">

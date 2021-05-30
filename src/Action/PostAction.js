@@ -6,7 +6,7 @@ export const getAllPostsById = (UserID) =>  {
     .post("https://tweeterlike-backend.herokuapp.com/getAllPostsById", {UserID : UserID})
     .then(res => {
       
-      console.log(res.data);
+      // console.log(res.data);
       return res.data;
     })
     .catch(err =>
@@ -51,7 +51,7 @@ export const addpost = postData =>{
   return axios.post("https://tweeterlike-backend.herokuapp.com/addpost", postData, axiosConfig)
                 .then(res => {
                     
-      
+      console.log(res);
       return res.data;
     })
     .catch(err => {

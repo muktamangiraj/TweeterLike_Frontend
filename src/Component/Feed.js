@@ -65,13 +65,17 @@ class  Feed extends Component {
             About: this.state.About
         });
         if(PostData.isValid) {
-            actions.addpost(newPost);
-            alert("Added sucessfully")
+            actions.addpost(newPost).then(post =>{
+                
+                window.location.reload();
+            });
+            
             this.handleCloseModal();
-            window.location.reload();
+            
         } else {
             this.setState({ errors: PostData.errors });
         }
+        
     }
 
     
