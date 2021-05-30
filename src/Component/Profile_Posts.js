@@ -61,7 +61,7 @@ class  Profile_Posts extends Component {
         return len;
     }
 
-    componentDidMount() {
+    componentWillMount() {
         actions.getAllPostsById(this.state.UserID).then(post => {
             this.setState({
                 AllPosts : post.data
@@ -71,6 +71,8 @@ class  Profile_Posts extends Component {
 
 
     render() {
+
+        console.log(this.state);
         const { AllPosts } = this.state;
         return (
             <div class="maindiv">
@@ -116,7 +118,7 @@ class  Profile_Posts extends Component {
                             <button class="deleteButton" onClick={this.onDeleteClick(usr._id)}>X</button>
                             <img src="https://img.icons8.com/doodle/50/000000/test-account.png" class="Feedimg" alt =""/>
                             <div class="container">
-                               <h1 class="nameTitle">{usr.Name}</h1>
+                               <h1 class="nameTitlePosts">{usr.Name}</h1>
                                <p class="about">{usr.About}</p> 
                             </div>
                         </div>

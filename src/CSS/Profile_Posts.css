@@ -185,16 +185,16 @@ img {
   .nameTitlePosts{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: 300%;
+    font-size: 3rem;
     text-align: center;
-    margin-top: 2pc;
+    /* margin-top: 2pc; */
   }
 
   .imgPosts {
     border-radius: 5px 5px 0 0;
     float: left;
     /* margin-top: 3%; */
-    margin-left: 10%;
+    /* margin-left: 10%; */
     width: 7%;
     /* position: absolute; */
     display: inline;
@@ -245,4 +245,5 @@ img {
       border: solid;
       border-width: thin;
       border-color: red;
+      position: absolute;
   }

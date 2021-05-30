@@ -3,10 +3,10 @@ import axios from "axios";
 // get all posts by id
 export const getAllPostsById = (UserID) =>  {
   return axios
-    .post("https://tweeterlike-backend.herokuapp.com//getAllPostsById", {UserID : UserID})
+    .post("https://tweeterlike-backend.herokuapp.com/getAllPostsById", {UserID : UserID})
     .then(res => {
       
-      // console.log(res.data);
+      console.log(res.data);
       return res.data;
     })
     .catch(err =>
